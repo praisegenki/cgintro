@@ -2,12 +2,15 @@
 matrix1 = rand(1000,3) * 1;
 matrix2 = rand(1000,3) * 1;
 
+<<<<<<< HEAD
 mSum = 0.4;
 % Ohne Schleife
 tic
 mSum = dot(matrix1, matrix2);
 mSum
 toc
+=======
+>>>>>>> a0d1f8b455962d65e07270a6522b30278c21922d
 
 mSum = 0;
 % Nur mit äußerer Schleife
@@ -30,7 +33,11 @@ mSum
 toc
 
 %-----------------------------------------------%
+<<<<<<< HEAD
+%	Programm läuft ohne Schleifen schneller 	%
+=======
 %	Programm läuft mit Schleifen schneller..?	%
+>>>>>>> a0d1f8b455962d65e07270a6522b30278c21922d
 %-----------------------------------------------%
 
 clear all
